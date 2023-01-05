@@ -68,10 +68,15 @@ main a {
 
 .social-links a {
   border: 1px dotted white;
-  padding: 8px;
+  padding: 6px;
   border-radius: 50%;
   font-size: 14px;
   margin-right: 5px;
+  transition: all 0.2s ease-in;
+}
+.social-links a:hover {
+  color: hsl(300deg, 69%, 71%);
+  border-color: hsl(300deg, 69%, 71%);
 }
 
 @media (min-width: 414px) {

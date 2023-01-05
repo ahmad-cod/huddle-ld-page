@@ -70,10 +70,15 @@ main {
 .social-links {
     a {
         border: 1px dotted white;
-        padding: 8px;
+        padding: 6px;
         border-radius: 50%;
         font-size: 14px;
         margin-right: 5px;
+        transition: all 0.2s ease-in;
+        &:hover {
+            color: $Soft-Magenta;
+            border-color: $Soft-Magenta;
+        }
     }
 }
 
