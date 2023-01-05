@@ -87,7 +87,11 @@ main {
         text-align: start;
         background-image: url('./images/bg-desktop.svg');
         padding-inline: 3rem;
+        padding-bottom: 0.35rem;
         gap: 2.5rem;
+    }
+    header {
+        padding-bottom: 1.8rem;
     }
     main {
         flex-direction: row;
