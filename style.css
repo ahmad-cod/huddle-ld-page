@@ -21,6 +21,9 @@ body {
   min-height: 100vh;
   background-image: url("./images/bg-mobile.svg");
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
 }
 
 a {
@@ -29,7 +32,7 @@ a {
 }
 
 header {
-  margin-bottom: 2rem;
+  padding-bottom: 0.8rem;
 }
 header img {
   width: 9rem;
@@ -38,7 +41,7 @@ header img {
 main {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.8rem;
   margin-bottom: 2rem;
 }
 main h1, main p, main a {
@@ -51,11 +54,22 @@ main p {
   font-family: "Open Sans" sans-serif;
   font-size: 1rem;
   opacity: 0.9;
+  line-height: 1.6rem;
 }
 main a {
-  padding: 0.3rem 3rem;
+  padding: 0.3rem 3.2rem;
+  font-size: 0.99rem;
   color: hsl(257deg, 40%, 49%);
   border: 1px solid hsl(257deg, 40%, 49%);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   background-color: #fff;
+  box-shadow: 0 0 5px hsl(257deg, 40%, 49%);
+}
+
+.social-links a {
+  border: 1px dotted white;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */
