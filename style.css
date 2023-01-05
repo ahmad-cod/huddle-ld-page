@@ -72,4 +72,33 @@ main a {
   border-radius: 50%;
   font-size: 14px;
   margin-right: 5px;
+}
+
+@media (min-width: 414px) {
+  body {
+    text-align: start;
+    background-image: url("./images/bg-desktop.svg");
+    padding-inline: 3rem;
+    gap: 2.5rem;
+  }
+  main {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
+  }
+  main .primary-image {
+    flex-basis: 80%;
+  }
+  main .texts {
+    padding-top: 2.5rem;
+    flex-basis: 70%;
+  }
+  main .texts h1 {
+    font-size: 2.5rem;
+  }
+  .social-links {
+    text-align: end;
+  }
 }/*# sourceMappingURL=style.css.map */
